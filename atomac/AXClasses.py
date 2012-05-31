@@ -91,10 +91,6 @@ class BaseAXUIElement(_a11y.AXUIElement):
       raise ValueError('Specified application not found in running apps.')
 
    @classmethod
-   def getAppLocalizedNames(cls):
-      ''''''
-
-   @classmethod
    def getSystemObject(cls):
       '''getSystemObject - Get the top level system accessibility object'''
       return _a11y.getSystemObject(cls)
